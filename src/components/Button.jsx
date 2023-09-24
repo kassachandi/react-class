@@ -1,7 +1,9 @@
 const ButtonComponent = (props) => {
     console.log(props)
     return(
-        <button>{props.title}</button>
+        <button>
+            {props.title}
+        </button>
     )
 }
 
